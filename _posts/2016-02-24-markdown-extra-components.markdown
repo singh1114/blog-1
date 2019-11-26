@@ -1,17 +1,18 @@
 ---
 title: Markdown Extra Components
 date: 2016-02-24 22:48:00 Z
+published: false
 categories:
 - blog
 tags:
 - markdown
 - components
 - extra
-layout: post
 image: "/assets/images/markdown.jpg"
 headerImage: false
 author: jamesfoster
 description: Markdown summary with different options
+layout: post
 ---
 
 ## Summary:
