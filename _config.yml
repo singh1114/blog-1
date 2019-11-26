@@ -16,7 +16,7 @@ picture: assets/images/profile.jpg
 resume: true
 resume-external: true
 resume-url: https://google.com/?q=my+resume
-url: https://koppl.in/indigo
+url: http://sharmapacific.in
 permalink: "/:title/"
 disqus:
   shortname: mydisqus
