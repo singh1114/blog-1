@@ -23,7 +23,7 @@ disqus:
   categories:
   - 
   - 
-facebook: myfacebook
+facebook: 
 twitter: sharmapacific1
 github: sharmapacific
 medium: 
@@ -42,7 +42,7 @@ authors:
     picture: assets/images/james.jpg
     twitter: jamesfoster
 width: normal
-projects: true
+projects: false
 about: true
 blog: true
 read-time: true
