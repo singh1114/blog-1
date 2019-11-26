@@ -12,7 +12,6 @@ tags:
 - tutorial
 - beginners
 category: blog
-author: jamesfoster
 ---
 
 
