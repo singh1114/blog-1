@@ -1,6 +1,6 @@
 ---
 title: Blog
-timezone: UTC
+timezone: Asia/Kolkata
 collections:
   posts:
     title: Posts
@@ -24,9 +24,9 @@ disqus:
   - 
   - 
 facebook: myfacebook
-twitter: mytwitter
-github: mygithub
-medium: medium
+twitter: sharmapacific1
+github: sharmapacific
+medium: 
 email: sharma.pacific1@gmail.com
 authors:
   johndoe:
