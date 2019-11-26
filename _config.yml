@@ -8,7 +8,7 @@ collections:
   uploads:
     title: Uploads
     output: true
-name: John Doe
+name: Prashant Sharma
 bio: A Man who travels the world eating noodles
 description: A blog about technology and stuff related
 external-image: false
@@ -27,7 +27,7 @@ facebook: myfacebook
 twitter: mytwitter
 github: mygithub
 medium: medium
-email: myemail@gmail.com
+email: sharma.pacific1@gmail.com
 authors:
   johndoe:
     name: John Doe
