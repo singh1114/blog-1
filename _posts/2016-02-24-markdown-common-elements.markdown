@@ -1,17 +1,18 @@
 ---
 title: Markdown Common Elements
 date: 2016-02-24 22:44:00 Z
+published: false
 categories:
 - blog
 tags:
 - markdown
 - elements
-layout: post
 image: "/assets/images/markdown.jpg"
 headerImage: false
 star: true
 author: johndoe
 description: Markdown summary with different options
+layout: post
 ---
 
 ## Basic formatting
