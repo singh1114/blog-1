@@ -29,18 +29,12 @@ github: sharmapacific
 medium: 
 email: sharma.pacific1@gmail.com
 authors:
-  johndoe:
-    name: John Doe
-    bio: A Man who travels the world eating noodles
-    external-image: false
-    picture: assets/images/profile.jpg
-    twitter: johndoe
-  jamesfoster:
-    name: James Foster
+  PrashantSharma:
+    name: Prashant Sharma
     bio: A Man who develops software with coffee
     external-image: false
-    picture: assets/images/james.jpg
-    twitter: jamesfoster
+    picture: assets/images/PrashantSharma.jpg
+    twitter: sharmapacific1
   linkedin: prashant-sharma-4572b3b4
 width: normal
 projects: false
