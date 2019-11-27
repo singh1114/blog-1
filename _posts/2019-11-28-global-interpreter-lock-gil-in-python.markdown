@@ -13,6 +13,7 @@ Any operation which is executed in the interpreter, GIL ensures that the interpr
 
 Let's take an example - 
 * Single-Threaded
+
 ```python
 import time
 from threading import Thread
@@ -27,15 +28,16 @@ start = time.time()
 countdown(COUNT)
 end = time.time()
 
-print('Time is taken by single_threaded - {} Sec.'.format(end - start))
-
+print('Time is taken by single_threaded - {} Sec.'.format(end - start)
 ```
+
 Output - 
 ```python
 Time is taken by single_threaded - 1.9384803771972656 Sec.
 ```
 
 * Multi-Threaded
+
 ```python
 import time
 from threading import Thread
@@ -58,6 +60,7 @@ end = time.time()
 
 print('Time is taken by multi_threaded - {} Sec.'.format(end - start))
 ```
+
 Output - 
 ```python
 Time is taken by multi_threaded - 1.905367784500122 Sec.
