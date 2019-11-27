@@ -71,10 +71,10 @@ So even if your system could be have multiple cores/processors. And multiple cor
 
 ### How two threads perform both CPU and `I/O` operations during execution -
 
-**01.** The python interpreter creates a process and spawns the threads.
-**02.** When Thread 1 starts execution, it'll acquire the GIL and lock it.
-**03.** Thread 2 has to wait for GIL to be released by Thread 1.
-**04.** In case if Thread 1 is waiting for IO from the client, it releases the GIL and  Thread 2 will acquire it and start the execution.
+1. The python interpreter creates a process and spawns the threads.
+2. When Thread 1 starts execution, it'll acquire the GIL and lock it.
+3. Thread 2 has to wait for GIL to be released by Thread 1.
+4. In case if Thread 1 is waiting for IO from the client, it releases the GIL and  Thread 2 will acquire it and start the execution.
 **05.** Now suppose If Thread 1 gets the IO, Then Thread 1 has to wait for GIL to be release by Thread 2.
 
 A thread waiting for the GIL will do a timed wait on the GIL, with a preset interval that can be modified with [sys.setswitchinterval](https://docs.python.org/3/library/sys.html#sys.setswitchinterval).
