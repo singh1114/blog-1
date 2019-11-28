@@ -1,6 +1,7 @@
 ---
 title: Garbage Collection in Python
 date: 2019-11-27 01:04:00 +05:30
+published: false
 categories:
 - python
 - productivity
