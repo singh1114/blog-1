@@ -11,7 +11,7 @@ tags:
 - productivity
 - tutorial
 - beginners
-blog: 
+category: blog
 ---
 
 The objective of writing this article is to develop a better understanding of how the `import` statement works and different forms of importing.
