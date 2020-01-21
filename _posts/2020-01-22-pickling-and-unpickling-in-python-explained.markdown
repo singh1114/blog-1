@@ -24,7 +24,7 @@ There are currently 6 different protocols that can be used for Pickling. The hig
 
 Pickle has two main methods. The first one is a `dump`, which dumps an object to a file object and the second one is `load`, which loads an object from a file object.
 
-```python
+```
 pickle.dump(object, file_obj, protocol)
 ```
 
@@ -39,8 +39,10 @@ So let's continue to practical:
 ```python
 import pickle
 ```
+
 Below is the example of pickling and unpickling -
-### **Pickling** 
+### Pickling
+
 ```python
 import pickle
 
@@ -59,7 +61,8 @@ pickle_data()
 ```
 To Open the file we used `open` function, The first argument should be the name of your file and the second argument is `wb`, `wb` refers the writing in binary mode. This means that the data will be written in the form of byte objects.
 
-### **Unpickling** 
+### Unpickling
+
 ```python
 import pickle
 
