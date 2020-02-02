@@ -11,6 +11,7 @@ tags:
 - productivity
 - tutorial
 - beginners
+category: blog
 ---
 
 Today, we will be discussing the copy in Python. There are three ways we can do it. In this article, you will get to know what each operation does and how they are different.
