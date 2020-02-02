@@ -7,7 +7,7 @@ layout: page
 
 <p>Greetings! My name is Prashant, 
 <br>
-An Engineering professional with 3 years of experience in Software development using Python/Django.
+An Engineering professional with 3+ years of experience in Software development.
 <br>
 I Post-graduated in CS from National Institute of Technology Calicut.</p>
 
@@ -24,6 +24,8 @@ I Post-graduated in CS from National Institute of Technology Calicut.</p>
 	<li>Celery</li>
 	<li>Redis</li>
 	<li>AWS</li>
+        <li>Azure</li>
+        <li>GCP</li>
 	<li>Git</li>
 	<li>Lint</li>
 	<li>Docker</li>
