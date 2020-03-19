@@ -14,7 +14,6 @@ tags:
 category: blog
 ---
 
-> This article was originally shared on [Link]()
 
 Objects of built-in types like (int, float, bool, str, tuple, Unicode) are immutable. Objects of built-in types like (list, set, dict) are mutable.
 A mutable object can change its state or contents and immutable objects cannot.
