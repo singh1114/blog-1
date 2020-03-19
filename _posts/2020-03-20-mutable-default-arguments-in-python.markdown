@@ -112,4 +112,5 @@ However, Mutable Default Argument have some good use-case also as following-
 I hope you like the explanation of Mutable Default Arguments in Python. Still, if any doubt or improvement regarding it, ask in the comment section.
 
 References:
+
 https://docs.python.org/3/reference/datamodel.html#the-standard-type-hierarchy
