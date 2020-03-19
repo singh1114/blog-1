@@ -14,6 +14,8 @@ tags:
 category: blog
 ---
 
+> This article was originally shared on [Link]()
+
 Objects of built-in types like (int, float, bool, str, tuple, Unicode) are immutable. Objects of built-in types like (list, set, dict) are mutable.
 A mutable object can change its state or contents and immutable objects cannot.
 
@@ -66,7 +68,7 @@ Let's now execute this function and check the defaults.
 >>> foo.__defaults__
 ([10],)
 ```
-Astonished? The value inside the object changes! Consecutive calls to the function will now simply append to that embedded list object:
+Astonished? The value inside the object changes, Consecutive calls to the function will now simply append to that embedded list object:
 
 Let's execute the function multiple times:
 ```python
@@ -79,7 +81,7 @@ Let's execute the function multiple times:
 
 ```
 
-The reason why this is happening default argument values is stored in the function object, not in the code object (because they represent values calculated at run-time).
+The reason why this is happening because default argument values are stored in the function object, not in the code object (because they represent values calculated at run-time).
 
 ## **The Solution** 
 
@@ -104,6 +106,7 @@ So, by replacing mutable default arguments with None solved our problem.
 However, Mutable Default Argument have some good use-case also as following-
 
 1.Binding local variable to the current value of the outer variable in a callback
+
 2.Cache/Memoization
 
 I hope you like the explanation of Mutable Default Arguments in Python. Still, if any doubt or improvement regarding it, ask in the comment section.
