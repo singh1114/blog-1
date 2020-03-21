@@ -19,10 +19,10 @@ resume-url: https://google.com/?q=my+resume
 url: http://sharmapacific.in
 permalink: "/:title/"
 disqus:
-  shortname:
+  shortname: 
   categories:
-  -
-  -
+  - 
+  - 
 linkedin: sharmapacific
 twitter: sharmapacific1
 github: sharmapacific
