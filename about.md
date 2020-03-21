@@ -5,7 +5,11 @@ layout: page
 
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<p>Energetic Software Engineer with 2.8 + years experience, building the product for high volume business.</p>
+<p>Greetings! My name is Prashant, 
+<br>
+An Engineering professional with 3+ years of experience in Software development.
+<br>
+I Post-graduated in CS from National Institute of Technology Calicut.</p>
 
 <h2>Skills</h2>
 
@@ -20,7 +24,13 @@ layout: page
 	<li>Celery</li>
 	<li>Redis</li>
 	<li>AWS</li>
-	<li>Github</li>
+        <li>Azure</li>
+        <li>GCP</li>
+	<li>Git</li>
 	<li>Lint</li>
 	<li>Docker</li>
 </ul>
+
+
+<h2>Contact me:</h2>
+<p>sharma.pacific1@gmail.com<p>

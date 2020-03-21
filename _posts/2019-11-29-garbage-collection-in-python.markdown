@@ -1,16 +1,16 @@
 ---
 title: Garbage Collection in Python
-date: 2019-11-27 01:04:00 +05:30
+date: 2019-11-29 01:39:00 +05:30
 categories:
 - python
-- productivity
 - tutorial
+- productivity
 - beginners
 tags:
 - python
+- beginners
 - productivity
 - tutorial
-- beginners
 category: blog
 ---
 
@@ -107,6 +107,6 @@ For this kind of Reference cycle, Python has another algorithm specially dedicat
 ### Summary
 Python has 2 Garbage Collection algorithms. One for dealing with reference count, When the reference count reaches `0`, it removes the object and frees its allocated memory. The other is the Cycle-detecting algorithm which discovers and destroys circular references.
 
-I hope that you now have a fair understanding about the Garbage Collection algorithms in python.
+I hope that you now have a fair understanding of the Garbage Collection algorithms in python.
 
 If you have any suggestions on your mind, please let me know in the comments.
