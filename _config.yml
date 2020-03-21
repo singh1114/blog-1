@@ -19,14 +19,14 @@ resume-url: https://google.com/?q=my+resume
 url: http://sharmapacific.in
 permalink: "/:title/"
 disqus:
-  shortname: 
+  shortname:
   categories:
-  - 
-  - 
-linkedin: prashant-sharma-4572b3b4
+  -
+  -
+linkedin: sharmapacific
 twitter: sharmapacific1
 github: sharmapacific
-medium: 
+medium: sharmapacific
 email: sharma.pacific1@gmail.com
 authors:
   PrashantSharma:
