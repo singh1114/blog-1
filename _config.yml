@@ -16,7 +16,7 @@ picture: assets/images/PrashantSharma.jpg
 resume: false
 resume-external: false
 resume-url: https://google.com/?q=my+resume
-url: http://sharmapacific.in
+url: https://sharmapacific.in
 permalink: "/:title/"
 disqus:
   shortname: 
