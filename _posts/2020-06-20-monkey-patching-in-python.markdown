@@ -40,7 +40,7 @@ Output -
 ```python
 30
 ```
-As you can see below now only two methods `__init__` and `addition` and are available for class object. (You can use `dir(obj)` also to get the members of the object)
+As you can see below now only two methods `__init__` and `addition` and are available for above class object. (You can use `dir(obj)` also to get the members of the object)
 
 ```python
 import inspect 
@@ -96,7 +96,7 @@ The best thing is not to monkey patch. You can define child classes for the ones
 4. Try to make monkey patch as transparent as possible also place monkey patch code in separate files
 
 # Conclusion 
-Now we have learned how to do a monkey patch in Python. However, as I discussed, it has its own drawbacks and should be used carefully. Well, this often means the bad architecture of your application, and is not a good design decision, because it creates a discrepancy between the original source code on disk and the observed behavior and can be very confusing when troubleshooting.
+Now we have learned how to do a monkey patch in Python. However, it has its own drawbacks and should be used carefully. Well, this often means the bad architecture of your application, and is not a good design decision, because it creates a discrepancy between the original source code on disk and the observed behavior and can be very confusing when troubleshooting.
 
 # Reference
 https://en.wikipedia.org/wiki/Monkey_patch
