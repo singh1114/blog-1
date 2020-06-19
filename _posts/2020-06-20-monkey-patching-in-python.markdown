@@ -44,6 +44,7 @@ As you can see below now only two methods `__init__` and `addition` and are avai
 
 ```python
 import inspect 
+
 inspect.getmembers(obj, predicate=inspect.ismethod)                                                                                                                                       
 ```
 Output - 
