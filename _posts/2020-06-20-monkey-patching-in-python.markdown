@@ -40,7 +40,7 @@ Output -
 ```python
 30
 ```
-As you can see below now only two methods `__init__` and `addition` and are available for the above class object. (You can use `dir(obj)` also to get the members of the object)
+As you can see below, now only two methods `__init__` and `addition` and are available for the above class object. (You can use `dir(obj)` also to get the members of the object)
 
 ```python
 import inspect 
