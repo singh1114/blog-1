@@ -36,6 +36,10 @@ layout: page
     </div>
 {% endif %}
 
+{% if site.related %}
+    {% include related.html %}
+{% endif %}
+
 <div id="change">
     <strong>Get Updates on Telegram</strong>
     <p>
@@ -76,10 +80,6 @@ layout: page
         box-shadow: 0 1px 1px rgba(63,166,63,0.25);
     }
 </style>
-
-{% if site.related %}
-    {% include related.html %}
-{% endif %}
 
 {% if site.show-author %}
     {% include author.html %}
