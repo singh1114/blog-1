@@ -36,10 +36,6 @@ layout: page
     </div>
 {% endif %}
 
-{% if site.related %}
-    {% include related.html %}
-{% endif %}
-
 <div id="change">
     <strong>Get Updates on Telegram</strong>
     <p>
@@ -50,7 +46,14 @@ layout: page
             <strong id="telegram-text">Get Updates on Telegram</strong>
         </a>
     </button>
+    <br>
+    <a class="powered" href="https://notifier.taskforge.co" style="text-align: right; float: right;">Powered by Go Weasel</a>
 </div>
+
+{% if site.related %}
+    {% include related.html %}
+{% endif %}
+
 <style type="text/css">
     #telegram-chat-button {
         background: #2481CC;
@@ -69,7 +72,7 @@ layout: page
 
     div#change {
         margin: 2em 0 !important;
-        padding: 1em;
+        padding: 2em;
         color: #494e52;
         font-family: Georgia,Times,serif;
         font-size: .75em !important;
